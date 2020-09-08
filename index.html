@@ -40,18 +40,18 @@
         <tbody>
         <tr>
             <td>1</td>
-            <td>Agile software development</td>
+            <td><a href="https://courses.cs.ut.ee/2020/ASD/fall/" target="_blank">Agile Software Development</a></td>
             <td>Semester 1 fall</td>
             <td>82</td>
         </tr>
             <td>2</td>
-            <td>System modeling</td>
+            <td><a href="https://courses.cs.ut.ee/2020/sm/spring/" target="_blank">System modeling</a></td>
             <td>Semester 1 spring</td>
             <td>85</td>
         </tr>
         <tr>
             <td>3</td>
-            <td>Object-oriented programming</td>
+            <td><a href="https://courses.cs.ut.ee/2020/OOP/spring/" target="_blank">Object-oriented programming</a></td>
             <td>Semester 2 spring</td>
             <td>99</td>
         </tr>
@@ -62,15 +62,37 @@
             <td>65</td>
         </tr>
         </tbody>
+        <tfoot>
+        <tr>
+            <td align="center" colspan="6"> <button type="button">Add new course</button> </td> 
+        </tr>
+        <tr>
+            <form action="" method="post">
+                <td></td>
+                <td>
+                    <input type="text" id="cname" name="cname" placeholder="Course name"><br>
+                </td>
+                <td>
+                    <select name="semester">
+                    <option value="1">Semester 1 fall</option>
+                    <option value="1">Semester 2 fall</option>
+                    <option value="1">Semester 1 spring</option>
+                    <option value="1">Semester 2 spring</option>
+                    </select>
+                </td>
+                <td><input type="number" name="grade" placeholder="Grade" min="0" max="100"></td>
+            </form>
+        </tr>
+        </tfoot>
     </table>
 </section>
     <footer>
         <ul>
             <li>
-                <a href="https://ois2.ut.ee/">OIS</a>
+                <a href="https://ois2.ut.ee/" target="_blank">OIS</a>
             </li>
             <li>
-                <a href="https://courses.cs.ut.ee/">Courses</a>
+                <a href="https://courses.cs.ut.ee/" target="_blank">Courses</a>
             </li>
         </ul>
     
